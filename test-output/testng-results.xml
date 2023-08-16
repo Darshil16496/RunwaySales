@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-16T13:19:53 IST" name="Suite" finished-at="2023-08-16T13:19:53 IST" duration-ms="104">
+    <groups>
+      <group name="smoke">
+        <method signature="DeleteOrgTest.deleteOrgMultiple()[pri:0, instance:com.practice.DeleteOrgTest@55b7a4e0]" name="deleteOrgMultiple" class="com.practice.DeleteOrgTest"/>
+        <method signature="createOrgTest.createOrg()[pri:0, instance:com.practice.createOrgTest@5f058f00]" name="createOrg" class="com.practice.createOrgTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-08-16T13:19:53 IST" name="Test" finished-at="2023-08-16T13:19:53 IST" duration-ms="104">
+      <class name="com.practice.createOrgTest">
+        <test-method signature="createOrg()[pri:0, instance:com.practice.createOrgTest@5f058f00]" started-at="2023-08-16T13:19:53 IST" name="createOrg" finished-at="2023-08-16T13:19:53 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+      </class> <!-- com.practice.createOrgTest -->
+      <class name="com.practice.DeleteOrgTest">
+        <test-method signature="deleteOrgMultiple()[pri:0, instance:com.practice.DeleteOrgTest@55b7a4e0]" started-at="2023-08-16T13:19:53 IST" name="deleteOrgMultiple" finished-at="2023-08-16T13:19:53 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrgMultiple -->
+      </class> <!-- com.practice.DeleteOrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
