@@ -12,4 +12,12 @@ public class DeleteOrgTest {
 	public void deleteOrgMultiple() {
 		System.out.println("Multiple Organization Deleted");
 	}
+	
+	public void deleteOrgById() {
+		System.out.println("Multiple Organization Deleted");
+	}
+	
+	public void deleteOrgById1() {
+		System.out.println("Multiple Organization Deleted");
+	}
 }
