@@ -12,4 +12,7 @@ public class createOrgTest {
 		System.out.println("Second Organization is Created");
 	}
 
+	public void createMultipleOrg() {
+		System.out.println("You can create multiple org");
+	}
 }
