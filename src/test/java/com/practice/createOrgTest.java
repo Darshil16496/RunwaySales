@@ -7,5 +7,9 @@ public class createOrgTest {
 	public void createOrg() {
 		System.out.println("Organization is Created");
 	}
+	
+	public void createOrgTwo() {
+		System.out.println("Second Organization is Created");
+	}
 
 }
